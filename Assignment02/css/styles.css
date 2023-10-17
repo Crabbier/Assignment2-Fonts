@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'custom1';
+    src: url(../fonts/writing_signature_2/WritingSignature.otf);
+}
+
+@font-face {
+    font-family: 'custom2';
+    src: url(../fonts/pio_serif/PioSerifFREE.otf);
+}
+
+@font-face {
+    font-family: 'custom3';
+    src: url(../fonts/amperzand/Amperzand.ttf);
+}
+
+@font-face {
+    font-family: 'custom4';
+    src: url(../fonts/cursive_serif/CursiveSerif-Book.ttf);
+}
+
+html {
+    background-image: url(../images/clapton05.jpg);
+    background-size: cover;
+}
+
+body {
+    background-image: url(../images/birds.jpg);
+    margin: 0 80px 0 80px;
+    font-family: 'custom3';
+    color: white;
+    background-size:cover;
+    background-position: center;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.400);
+}
+
+header {
+    background-image: url(../images/stairway.jpg);
+    background-size: cover;
+    background-position: 20%;
+    padding: 2em 2em 2em 2em;
+    position: relative;
+}
+
+header::after {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.61);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+header h1{
+    position: relative;
+    font-family: 'custom2';
+    font-style: italic;
+    letter-spacing: .2em;
+    z-index: 2;
+    color: white;
+    font-size: 500%;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+header h2{
+    position: relative;
+    font-family:'custom1';
+    font-style: italic;
+    letter-spacing: .2em;
+    z-index: 2;
+    color: white;
+    font-size: 200%;
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+main {
+    position: relative;
+    z-index: 1;
+    padding: 10px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+main {
+    content: "";
+    position:relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.74);
+}
+
+main div {
+    position: relative;
+    font-size: 200%;
+    z-index: 2;
+    color:white;
+    text-align: center;
+}
+
+.bridge {
+    font-family: 'custom4';
+}
+
+p .heaven1 {
+    letter-spacing: .1em;
+    color: rgb(188, 188, 255);
+}
+
+p .heaven2 {
+    letter-spacing: .1em;
+    color: rgb(131, 150, 255);
+}
+
+.heaven {
+    letter-spacing: .2em;
+    color: rgb(178, 255, 255);
+}
+
+.phrase {
+    letter-spacing: .1em;
+    color: rgb(109, 187, 255);
+}
+
+.b1 {
+    color: rgb(135, 231, 255);
+}
+
+.b2 {
+    color: rgb(135, 201, 255);
+}
+
+.b3 {
+    color: rgb(135, 157, 255);
+}
+
+.b4 {
+    color: rgb(69, 81, 255);
+}
+
+.b0 {
+    color: rgb(207, 245, 255);
+}
+
+footer {
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #9e9e9e;
+    font-size: 110%;
+}
+
+a:focus {
+    font-size: 200%;
+}
