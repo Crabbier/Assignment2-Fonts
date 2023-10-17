@@ -117,6 +117,7 @@ p .heaven2 {
 .heaven {
     letter-spacing: .2em;
     color: rgb(178, 255, 255);
+    /* text-transform: capitalize; */
 }
 
 .phrase {
@@ -142,6 +143,7 @@ p .heaven2 {
 
 .b0 {
     color: rgb(207, 245, 255);
+    text-transform: uppercase;
 }
 
 footer {
